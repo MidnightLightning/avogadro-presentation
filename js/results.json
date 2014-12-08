@@ -1,18 +1,381 @@
 {
-  overall: { name: "Overall Scores", results: [
-    {team:"Nowhereville", "score":42},
-    {team:"Everytown", "score":45},
-    {team:"Bayside", "score":49}
-  ]},
-  boomilever: { name: "Overall Scores", results: [
-    {team:"Nowhereville", students:"Deborah Marquez, Lewis Toller"},
-    {team:"Everytown", students:"John Doe, Jane Doe"},
-    {team:"Bayside", students:"Ryan Whitten, Wilma Isaacson, Johnnie Mellott"}
-  ]},
-  chemistry-lab: { name: "Chemistry Lab", results: null},
-  dynamic-planet: { name: "Overall Scores", results: [
-    {team:"Nowhereville", students:"Martin Drown, Ruthy Murry"},
-    {team:"Everytown", students:"William Lippincott, Florence King, Debbie Bancroft, Keri Miller"},
-    {team:"Bayside"}
-  ]}
+  "overall": {
+    "name": "Overall",
+    "results": [
+      {
+        "team": "Northside",
+        "students": [
+          "Vince Tanner",
+          "Sue Cooper",
+          "Vince Carver"
+        ]
+      },
+      {
+        "team": "Everytown",
+        "students": [
+          "Stephen Willimanson",
+          "Sally Smith",
+          "Vince Carver"
+        ]
+      },
+      {
+        "team": "Cliffside",
+        "students": [
+          "Theresa Tanner",
+          "Stephen Cooper",
+          "Sally Willimanson"
+        ]
+      },
+      {
+        "team": "Rockport"
+      },
+      {
+        "team": "Porttown",
+        "students": [
+          "Clarence Smith",
+          "Susan Cooper",
+          "Stephen Carver"
+        ]
+      }
+    ]
+  },
+  "boomilever": {
+    "name": "Boomilever",
+    "results": [
+      {
+        "team": "Riverside"
+      },
+      {
+        "team": "Everytown"
+      },
+      {
+        "team": "Southside",
+        "students": [
+          "Vince Cartwright",
+          "Vince Cartwright",
+          "Stephen Cartwright"
+        ]
+      },
+      {
+        "team": "Bayside"
+      },
+      {
+        "team": "Westside",
+        "students": [
+          "Clarence Tanner",
+          "Clarence Smith",
+          "William Tanner"
+        ]
+      }
+    ]
+  },
+  "chemistry-lab": {
+    "name": "Chemistry Lab",
+    "results": [
+      {
+        "team": "Westside",
+        "students": [
+          "Theresa Jones",
+          "Sue Willimanson",
+          "Charles Cooper"
+        ]
+      },
+      {
+        "team": "Northside"
+      },
+      {
+        "team": "Everytown",
+        "students": [
+          "Theresa Masterson",
+          "Sue Cooper",
+          "William Carver"
+        ]
+      },
+      {
+        "team": "Nowhereville",
+        "students": [
+          "Stephen Masterson",
+          "Sally Tanner",
+          "Clarence Willimanson"
+        ]
+      },
+      {
+        "team": "Riverside",
+        "students": [
+          "Theresa Smith",
+          "Susan Cooper",
+          "Sally Cooper"
+        ]
+      }
+    ]
+  },
+  "dynamic-planet": {
+    "name": "Dynamic Planet",
+    "results": null
+  },
+  "disease-detectives": {
+    "name": "Disease Detectives",
+    "results": [
+      {
+        "team": "Northside"
+      },
+      {
+        "team": "Rockport",
+        "students": [
+          "Charles Masterson",
+          "Vince Cartwright",
+          "William Masterson"
+        ]
+      },
+      {
+        "team": "Cliffside",
+        "students": [
+          "Sally Willimanson",
+          "Vince Sanders",
+          "Charles Willimanson"
+        ]
+      },
+      {
+        "team": "Southside"
+      },
+      {
+        "team": "Westside",
+        "students": [
+          "Charles Willimanson",
+          "Theresa Carver",
+          "Charles Willimanson"
+        ]
+      }
+    ]
+  },
+  "radio-lab": {
+    "name": "Radio Lab",
+    "results": [
+      {
+        "team": "Northside",
+        "students": [
+          "Vince Carver",
+          "Samantha Masterson",
+          "Sue Cooper"
+        ]
+      },
+      {
+        "team": "Centerville",
+        "students": [
+          "John Sanders",
+          "John Tanner",
+          "Clarence Jones"
+        ]
+      },
+      {
+        "team": "Cliffside",
+        "students": [
+          "Charles Jones",
+          "Benjamin Sanders",
+          "Sue Smith"
+        ]
+      },
+      {
+        "team": "Rockport",
+        "students": [
+          "Sue Jones",
+          "Samantha Cartwright",
+          "Benjamin Sanders"
+        ]
+      },
+      {
+        "team": "Nowhereville",
+        "students": [
+          "Clarence Willimanson",
+          "Sue Masterson",
+          "Stephen Smith"
+        ]
+      }
+    ]
+  },
+  "code-busters": {
+    "name": "Code Busters",
+    "results": [
+      {
+        "team": "Southside"
+      },
+      {
+        "team": "Nowhereville",
+        "students": [
+          "John Cartwright",
+          "Bill Carver",
+          "Stephen Smith"
+        ]
+      },
+      {
+        "team": "Bayside"
+      },
+      {
+        "team": "Eastside",
+        "students": [
+          "William Sanders",
+          "Theresa Tanner",
+          "Susan Smith"
+        ]
+      },
+      {
+        "team": "Everytown",
+        "students": [
+          "Sue Masterson",
+          "Benjamin Smith",
+          "Samantha Masterson"
+        ]
+      }
+    ]
+  },
+  "bungee-egg-drop": {
+    "name": "Bungee Egg Drop",
+    "results": [
+      {
+        "team": "Northside",
+        "students": [
+          "Samantha Willimanson",
+          "Clarence Masterson",
+          "Charles Cooper"
+        ]
+      },
+      {
+        "team": "Riverside",
+        "students": [
+          "Bill Smith",
+          "Benjamin Smith",
+          "Benjamin Sanders"
+        ]
+      },
+      {
+        "team": "Centerville",
+        "students": [
+          "Susan Sanders",
+          "Stephen Willimanson",
+          "William Cartwright"
+        ]
+      },
+      {
+        "team": "Bayside"
+      },
+      {
+        "team": "Westside",
+        "students": [
+          "Sue Masterson",
+          "John Masterson",
+          "William Cartwright"
+        ]
+      }
+    ]
+  },
+  "write-it-do-it": {
+    "name": "Write It, Do It",
+    "results": [
+      {
+        "team": "Porttown",
+        "students": [
+          "Susan Cartwright",
+          "Samantha Smith",
+          "Sue Willimanson"
+        ]
+      },
+      {
+        "team": "Eastside",
+        "students": [
+          "Charles Smith",
+          "Clarence Masterson",
+          "Vince Tanner"
+        ]
+      },
+      {
+        "team": "Northside",
+        "students": [
+          "Samantha Smith",
+          "Stephen Cooper",
+          "Sue Cooper"
+        ]
+      },
+      {
+        "team": "Westside",
+        "students": [
+          "Sue Jones",
+          "Stephen Jones",
+          "Bill Tanner"
+        ]
+      },
+      {
+        "team": "Bayside"
+      }
+    ]
+  },
+  "designer-genes": {
+    "name": "Designer Genes",
+    "results": [
+      {
+        "team": "Northside"
+      },
+      {
+        "team": "Westside",
+        "students": [
+          "Benjamin Masterson",
+          "Sally Jones",
+          "Samantha Tanner"
+        ]
+      },
+      {
+        "team": "Riverside",
+        "students": [
+          "Bill Smith",
+          "William Carver",
+          "Clarence Willimanson"
+        ]
+      },
+      {
+        "team": "Everytown"
+      },
+      {
+        "team": "Bayside"
+      }
+    ]
+  },
+  "astronomy": {
+    "name": "Astronomy",
+    "results": [
+      {
+        "team": "Riverside",
+        "students": [
+          "Sally Cooper",
+          "Samantha Jones",
+          "Theresa Willimanson"
+        ]
+      },
+      {
+        "team": "Centerville",
+        "students": [
+          "Stephen Willimanson",
+          "Theresa Willimanson",
+          "Stephen Sanders"
+        ]
+      },
+      {
+        "team": "Eastside",
+        "students": [
+          "William Jones",
+          "Susan Cartwright",
+          "John Masterson"
+        ]
+      },
+      {
+        "team": "Cliffside",
+        "students": [
+          "Charles Cooper",
+          "John Willimanson",
+          "John Cartwright"
+        ]
+      },
+      {
+        "team": "Everytown"
+      }
+    ]
+  }
 }
